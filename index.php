@@ -171,10 +171,9 @@ $map = get_field('map');
 
 	</div>
 </div>
+<!-- Home Section 5 -->
 
 <div id="contact" class="id-scroll-fix-special"></div>
-
-<!-- Home Section 3 -->
 
 <div class="homeSec2 homeSec5" style="background-image:linear-gradient(rgba(255, 255, 255, 0.64), rgba(255, 255, 255, 0.64)), url('<?php echo esc_url(get_template_directory_uri() . '/assets/img/contactBg1.png'); ?>'); background-position: center left; background-repeat: no-repeat; background-size: cover;">
 	<div class="container">
@@ -264,7 +263,7 @@ $map = get_field('map');
 			dots: true,
 			autoplay: true,
 			autoplayTimeout: 10000,
-			autoplayHoverPause:true,
+			// smartSpeed: 10000,
 			items: 1,
 			animateOut: 'fadeOut',
 			navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]

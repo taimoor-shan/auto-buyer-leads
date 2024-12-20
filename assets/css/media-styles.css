@@ -1,0 +1,188 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+@media (max-width:1199px){
+	/* Global */
+	h2{font-size:26px; line-height:34px;}
+	.teamWrapper2 h4{font-size:15px}
+	.experienceSecBoxMain{min-height:590px;}
+	.experienceSecBoxText h2{font-size: 17px;line-height: 21px;min-height: 52px;}
+	.homeAddSec1 .homeAddSec1Inner h1 {
+	font-size: 40px;
+	line-height: 54px;
+}
+	.homeAddSec1 .homeAddSec1Inner h4 {
+	margin: 5px 0 0 0;
+	font-size: 26px;
+	line-height: 30px;
+}
+}
+@media (max-width:991px){
+	/* Global */
+	
+	.homeAddSec4Col{padding:40px 30px 16px 30px;}
+	.homeAddSec7{background-size:cover !important;}
+	.logoSm img{width:120px;}
+	/* 	Footer */
+	#footer .footerLogo{margin-top:-2.2rem; display:flex; justify-content:center;}
+	.footerLogo img{width:200px;}
+	#footer .contact p{font-size:15px;}
+	#footer .contact a{font-size:15px;}
+	.redStrap{padding-block:3rem; background:var(--red);}
+	.teamWrapper2 h3{font-size: 19px;line-height: 22px;}
+	
+	.teamWrapper2 h4{font-size:14px;line-height: 15px;}
+	.teamWrapper2{min-height: 150px;}
+	.experienceSecBoxText h2{font-size: 15px;line-height: 20px;}
+	.experienceSecBoxText p {font-size: 13px;line-height: 22px;}
+	.experienceSecBoxMain {min-height: 556px;}
+	.homeAddSec1 .logo2 img {
+    width: 170px;
+}
+	.homeAddSec1 .homeAddSec1Inner h1 {
+	font-size: 34px;
+	line-height: 44px;
+	margin-top:3em;
+}
+	.homeAddSec1 .homeAddSec1Inner h4 {
+	margin: 5px 0 0 0;
+	font-size: 24px;
+	line-height: 30px;
+}
+}
+@media (max-width:767px){
+	/* Global */
+	.py-6{padding-top:3rem; padding-bottom:3rem;}
+	.absCta{position:absolute; top:10px; right:32px;}
+	.redBtn{background:var(--red); font-size:12px;}
+	.cta{padding-block:10px;}
+	/* Main Banner */
+	.homeAddSec1{height:60vh;background-attachment:scroll !important;}
+
+	.homeAddSec1 .homeAddSec1Inner h1{font-size:30px; line-height:38px;}
+	.homeAddSec1 .homeAddSec1Inner h2 {
+    font-size: 15px;
+    line-height: 24px;
+}
+	.homeAddSec1 .homeAddSec1Inner h4{margin:6px 0 0 0; font-size:22px; line-height:24px;}
+	.logoSm{flex-direction:column;}
+	.logoSm img{width:150px;}
+	/* 	Footer */
+	#footer .navigation ul li a{font-size:14px; line-height:16px;}
+	#footer .contact p{font-size:14px;}
+	#footer .contact a{font-size:14px;}
+	.copyright p{font-size:12px; line-height:16px; padding-block:10px;}
+	.absCta a i{color:var(--blue);}
+	#header .logo{margin:0 !important}
+	#header .logo img , .footerLogo img{width: 180px;}
+	#footer .footerLogo{justify-content:left;}
+	#footer .footerLogo:before{left:65px;top: -20px;border-left: 80px solid transparent;
+		border-right: 80px solid transparent;
+		border-bottom: 80px solid white;}
+	.homeAddSec1 .homeAddSec1Inner h1 {
+	font-size: 26px;
+	line-height: 34px;
+}
+	#registrationModal .modalR2 label {
+    align-items: flex-end;
+    white-space: wrap;
+    flex-direction: row;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+	#registrationModal .wpcf7 .wpcf7-checkbox label {
+    min-height: auto;
+    font-weight: 500;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+	.abtAddSecAlt .thumb img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+	.homeAddSec1 .logo2{
+   display:none;
+}
+	.homeAddSec1 .homeAddSec1Inner {
+    width: 90%;
+}
+		.contactHeader {
+    gap: 10px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+		.contactHeader a{
+   width:20px;
+			height:20px;
+}
+	.homeAddSec4Col h4 {
+    font-size: 18px;
+    line-height: 26px;
+}
+}
+@media (max-width:576px){
+	/* 	Global */
+	h2{font-size:26px; line-height:34px; margin-bottom:1rem;}
+	.absCta{right:14px;}
+	.redBtn{font-size: 12px;
+    padding: 12px 24px;}
+	/* 	Main Banner */
+	.homeAddSec1 .homeAddSec1Inner h1 {
+	font-size: 26px;
+	line-height: 34px;
+}
+	.homeAddSec1 .homeAddSec1Inner h4{font-size:18px; line-height:24px;}
+	/* Services */
+	.homeAddSec4 .myGrid{row-gap:3rem; grid-template-columns: 1fr;}
+	.homeAddSec4Col {
+    padding: 40px 10px 20px 20px;
+}
+	#footer .navigation ul li a{font-size:13px;text-transform:capitalize;}
+
+.mainBanner .mainInnerBanner h1 {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0.8rem 1rem;
+}
+	.experienceSecBoxMain{min-height:auto;}
+	#footer .contact{justify-content:initial;gap:5px;}
+	#footer .contact p{margin:0 0 15px !important;}
+	#header .logo img , #footer .logo img{width: 150px;}
+	.mt-145 {
+    margin-top: 90px;
+}
+.homeAddSec1 .homeAddSec1Inner {
+    width: 100%;
+    padding-inline: 10px;
+}
+ul.hoverList {
+    width: 90%;
+    padding: 1em;
+}
+}
+
+@media (max-width:480px){
+
+	.homeAddSec1 .homeAddSec1Inner h4 {font-size: 16px;line-height: 20px;}
+	#footer .navigation ul li a{font-size:15px;}
+		.navigation ul{gap:initial;justify-content:space-between; margin-top:20px;}
+	.copyright p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-block: 5px !important;
+}
+	.copyright a {
+    font-size: 12px;
+    line-height: 16px;
+}
+}
+@media (max-width:380px){
+	.homeAddSec1 .homeAddSec1Inner h1 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+}

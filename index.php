@@ -12,8 +12,8 @@ $map = get_field('map');
 ?>
 
 <section class="homeAddSec1 position-relative">
-	<a href="<?php bloginfo("url"); ?>"
-		class="mainLogo"><img src="<?php echo $home_meta["header_logo"]["value"]; ?>" alt="" class="img-fluid"></a>
+	<!-- <a href="<?php bloginfo("url"); ?>"
+		class="mainLogo"><img src="<?php echo $home_meta["header_logo"]["value"]; ?>" alt="" class="img-fluid"></a> -->
 	<div class="owl-carousel owl-theme">
 
 		<?php
@@ -33,12 +33,14 @@ $map = get_field('map');
 					"single-post-thumbnail"
 				);
 		?>
-				<div class="slide container-fluid pt-5" style="background-image:linear-gradient(rgba(203, 228, 246, 0.8), rgba(203, 228, 246, 0.8)), url('<?php echo esc_url($image[0]); ?>'); background-size: cover;">
+				<div class="slide container-fluid" style="background-image:linear-gradient(rgba(203, 228, 246, 0.8), rgba(203, 228, 246, 0.8)), url('<?php echo esc_url($image[0]); ?>'); background-size: cover;">
 					<div class="container">
 						<div class="row justify-content-center">
-							<div class="col-xl-8 col-lg-10 col-12">
+							<div class="col-md-10 col-lg-8 col-12">
 
 								<div class="slide-content text-center">
+								<a href="<?php bloginfo("url"); ?>"
+								class="mainLogo mb-5"><img src="<?php echo $home_meta["header_logo"]["value"]; ?>" alt="" class="img-fluid"></a>
 									<div class="slideText">
 										<h3 class="tagline"><?php the_title(); ?></h3>
 
@@ -47,7 +49,7 @@ $map = get_field('map');
 										</div>
 									</div>
 
-									<a class="redBtn mt-4" href="#">Let's Talk</a>
+									<a class="redBtn mt-3 mt-md-4" href="#">Let's Talk</a>
 								</div>
 							</div>
 						</div>
@@ -60,8 +62,6 @@ $map = get_field('map');
 		?>
 	</div>
 </section>
-
-
 
 <!-- <div id="about" class="id-scroll-fix-special"></div> -->
 
@@ -77,11 +77,11 @@ $map = get_field('map');
 		?>
 
 
-		<div class="row align-items-center py-6">
+		<div class="row align-items-start align-items-xl-center py-6">
 
 
-			<div class="col-md-4 col-12">
-				<div class="row mb-4 mb-md-0">
+			<div class="col-md-4 col-12 order-2 order-md-1">
+				<div class="row mt-4 mt-md-0">
 
 					<div class="homeSec2L position-relative ">
 
@@ -127,14 +127,14 @@ $map = get_field('map');
 
 <div class="homeSec2 homeSec3">
 	<div class="container">
-		<div class="row align-items-center py-6">
+		<div class="row align-items-start align-items-xl-center pb-6">
 			<div class="col-md-8 col-12">
 				<div class="homeSec2R me-lg-4 myList">
 					<?php echo $home_meta["homeSec3Text"]["value"]; ?>
 				</div>
 			</div>
 			<div class="col-md-4 col-12">
-				<div class="row mb-4 mb-md-0 me-lg-3">
+				<div class="row mt-4 mt-md-0 me-lg-3">
 					<div class="homeSec2L position-relative ">
 						<img src="<?php echo $home_meta["homeSec3Img"]["value"]; ?>" alt="" class="img-fluid">
 					</div>
@@ -147,9 +147,9 @@ $map = get_field('map');
 
 <div class="homeSec2 bgMuted">
 	<div class="container">
-		<div class="row align-items-center py-6">
-			<div class="col-md-4 col-12">
-				<div class="row mb-4 mb-md-0 me-lg-3">
+		<div class="row align-items-start align-items-xl-center py-6">
+			<div class="col-md-4 col-12 order-2 order-md-1">
+				<div class="row mt-4 mt-md-0 me-lg-3">
 					<div class="homeSec2L position-relative ">
 						<img src="<?php echo $home_meta["homeSec4Img"]["value"]; ?>" alt="" class="img-fluid">
 					</div>
@@ -185,7 +185,7 @@ $map = get_field('map');
 				</div>
 			</div>
 		</div> -->
-		<div class="row py-6 pb-5">
+		<div class="row align-items-start py-6 pb-5">
 
 			<div class="col-md-7">
 				<div class="homeSec5L me-lg-4 me-xl-5">
@@ -261,7 +261,7 @@ $map = get_field('map');
 			margin: 10,
 			nav: true,
 			dots: true,
-			autoplay: true,
+			autoplay: false,
 			autoplayTimeout: 10000,
 			// smartSpeed: 10000,
 			items: 1,

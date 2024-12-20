@@ -264,7 +264,7 @@ $map = get_field('map');
 			dots: true,
 			autoplay: true,
 			autoplayTimeout: 10000,
-			// smartSpeed: 10000,
+			autoplayHoverPause:true,
 			items: 1,
 			animateOut: 'fadeOut',
 			navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]

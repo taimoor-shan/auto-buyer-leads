@@ -39,8 +39,8 @@ $map = get_field('map');
 							<div class="col-md-10 col-lg-8 col-12">
 
 								<div class="slide-content text-center">
-								<a href="<?php bloginfo("url"); ?>"
-								class="mainLogo mb-5"><img src="<?php echo $home_meta["header_logo"]["value"]; ?>" alt="" class="img-fluid"></a>
+									<a href="<?php bloginfo("url"); ?>"
+										class="mainLogo mb-5"><img src="<?php echo $home_meta["header_logo"]["value"]; ?>" alt="" class="img-fluid"></a>
 									<div class="slideText">
 										<h3 class="tagline"><?php the_title(); ?></h3>
 
@@ -65,7 +65,7 @@ $map = get_field('map');
 
 <!-- <div id="about" class="id-scroll-fix-special"></div> -->
 
-<!-- Home Section 3 -->
+<!-- Home Section 2 -->
 
 <div class="homeSec2">
 	<div class="container">
@@ -80,7 +80,7 @@ $map = get_field('map');
 		<div class="row align-items-start align-items-xl-center py-6">
 
 
-			<div class="col-md-4 col-12 order-2 order-md-1">
+			<div class="col-md-4 col-12 order-last order-md-first">
 				<div class="row mt-4 mt-md-0">
 
 					<div class="homeSec2L position-relative ">
@@ -148,7 +148,7 @@ $map = get_field('map');
 <div class="homeSec2 bgMuted">
 	<div class="container">
 		<div class="row align-items-start align-items-xl-center py-6">
-			<div class="col-md-4 col-12 order-2 order-md-1">
+			<div class="col-md-4 col-12 order-last order-md-first">
 				<div class="row mt-4 mt-md-0 me-lg-3">
 					<div class="homeSec2L position-relative ">
 						<img src="<?php echo $home_meta["homeSec4Img"]["value"]; ?>" alt="" class="img-fluid">

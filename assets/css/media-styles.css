@@ -15,10 +15,8 @@
     margin-block: 18px;
   }
   .homeAddSec1 .slide {
-
     height: 100vh;
-    
-}
+  }
 }
 @media (max-width: 991.98px) {
   .redBtn {
@@ -40,31 +38,34 @@
     font-size: 32px;
     margin-block: 18px;
   }
-  .homeAddSec1 .owl-theme .owl-nav .owl-prev, .homeAddSec1 .owl-theme .owl-nav .owl-next {
+  .homeAddSec1 .owl-theme .owl-nav .owl-prev,
+  .homeAddSec1 .owl-theme .owl-nav .owl-next {
     font-size: 18px;
     padding: 16px 8px !important;
-}
-
+  }
 }
 @media (max-width: 767.98px) {
-	.homeAddSec1 .post-excerpt h2 {
-		font-size: 42px;
-		margin-block: 14px;
-		line-height: 53px;
-	}
-	.homeSec2 img {
-		width: 340px;
-	}
-	.homeAddSec1 .post-excerpt h2 br{
-		display:none;
-	}
-	.contactForm.position-relative {
-		padding: 2.5em 2.5em 1em;
-		background: var(--muted);
-	}	
+  .homeAddSec1 .post-excerpt h2 {
+    font-size: 42px;
+    margin-block: 14px;
+    line-height: 53px;
+  }
+  .homeSec2 img {
+    width: 340px;
+  }
+  .homeAddSec1 .post-excerpt h2 br {
+    display: none;
+  }
+  .contactForm.position-relative {
+    padding: 2.5em 2.5em 1em;
+    background: var(--muted);
+  }
+  .homeAddSec1 .slide {
+    height: 70vh;
+  }
 }
 @media (max-width: 575.98px) {
-	.homeAddSec1 .post-excerpt h2{
+  .homeAddSec1 .post-excerpt h2 {
     font-size: 40px;
     margin-block: 24px;
     line-height: 46px;
@@ -72,39 +73,37 @@
   .py-6 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-}
-h2 {
+  }
+  h2 {
     font-size: 30px;
     margin-block: 18px;
     line-height: 38px;
-}
-.homeAddSec1 .post-excerpt p {
+  }
+  .homeAddSec1 .post-excerpt p {
     font-size: 16px;
     line-height: 1.3;
-   
-}
-.homeAddSec1 .owl-theme .owl-nav {
-   
+  }
+  .homeAddSec1 .owl-theme .owl-nav {
     display: none;
-    
-}
+  }
 }
 @media (max-width: 480px) {
-	.homeAddSec1 .post-excerpt h2 {
-		font-size: 34px;
-		margin-block: 20px;
-		line-height: 42px;
-	}
-	.mainLogo {
-		width: 120px;
-	}
+  .homeAddSec1 .post-excerpt h2 {
+    font-size: 34px;
+    margin-block: 20px;
+    line-height: 42px;
+  }
+  .mainLogo {
+    width: 120px;
+  }
+  .contactForm.position-relative {
+    padding: 2.5em 1.5em 1em;
+  }
 }
 @media (max-width: 374px) {
-  
   .homeAddSec1 .post-excerpt h2 {
     font-size: 32px;
-        margin-block: 20px;
-        line-height: 40px;
+    margin-block: 20px;
+    line-height: 40px;
   }
-
 }
